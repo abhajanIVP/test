@@ -1,0 +1,64 @@
+ {
+  "header":{
+    "title":"Hello World",
+    "subtitle":"Software Engineer"
+  },
+  "sections":[
+    {
+      "header":"Contact Info",
+      "widgets":[
+        {
+          "decoratedText":{
+            "icon":{
+              "knownIcon":"EMAIL"
+            },
+            "content":"abc@example.com"
+          }
+        },
+        {
+          "decoratedText":{
+            "icon":{
+              "knownIcon":"PERSON"
+            },
+            "content":"<font color=\"#80e27e\">Online</font>"
+          }
+        },
+        {
+          "decoratedText":{
+            "icon":{
+              "knownIcon":"PHONE"
+            },
+            "content":"+1 (555) 555-1234"
+          }
+        },
+        {
+          "buttons":[
+            {
+              "textButton":{
+                "text":"Share"
+              },
+              "onClick":{
+                "openLink":{
+                  "url":"https://www.google.com"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "collapsible":true, 
+      "uncollapsibleWidgetsCount":3
+    }
+  ],
+  "cardActions":[
+    {
+      "actionLabel":"Send Feedback",
+      "onClick":{
+        "openLink":{
+          "url":"https://www.google.com"
+        }
+      }
+    }
+  ],
+  "name":"contact-card-adaw34232"
+}
